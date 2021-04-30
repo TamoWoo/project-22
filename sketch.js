@@ -21,7 +21,7 @@ function setup() {
 	createCanvas(2000,2200);
 
 	//write code to play fairyVoice sound
-	fairySound.play
+	fairySound.play();
 	//create fairy sprite and add animation for fairy
 	fairy = createSprite(100,900,500,20);
 	fairy.addAnimation("flyingfairy",fairyimg);
